@@ -1,0 +1,37 @@
+# Ignora entornos virtuales (ajusta el nombre si usas otro)
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de entorno y secretos
+.env
+*.env
+
+# Archivos temporales de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+
+# Archivos de test/cache
+.pytest_cache/
+.coverage
+.tox/
+.nox/
+.mypy_cache/
+.cache/
+coverage.xml
+
+# Jupyter
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
